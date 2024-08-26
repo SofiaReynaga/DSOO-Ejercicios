@@ -19,6 +19,15 @@ def main():
     # se conectan las dos variables que declaramos, mostrando "Hola Mundo"
     print(cadena1 + cadena2)
 
+    #Ejercicio3
+
+    #Se pide al usuario ingresar su nombre y dni
+    nombre= input("Ingrese su Nombre: ")
+    dni= input("Ingrese su DNI: ")
+
+    #Se muestra por pantalla el nombre y dni del usuario
+    print(f"El nombre del usuario es {nombre} y su DNI es {dni}")
+
 
 if __name__ == '__main__':
     main()
